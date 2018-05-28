@@ -1,0 +1,64 @@
+@media only screen and (min-width: 37.5em) {
+
+
+nav button { display:none; }  
+
+section.forecast { display: block; clear:left; }  
+
+nav { display:block}
+/*Background image*/
+main figure img 
+{
+	top: 0;
+	width:20rem;
+	float: left:
+		
+}
+main h3{position:relative;left:100px;}	
+main h2
+{
+	position: relative;
+	top:-270px;
+	left:200px;
+}
+
+.current {float:left}
+main h4
+{
+	position: relative;
+	left:150px;
+	top:-30px;
+}
+
+.highlow
+{
+	position: relative;
+	left:40px;
+	top:-5px;
+	
+}
+.conditions
+{
+	position: relative;
+	left:120px;
+	top:-50px;
+	
+}
+	
+.weather-summary
+{
+	position: relative;
+	top:-300px;
+	left:350px;
+	float:left;
+	display: inline;
+}
+article img
+{
+	float: right;
+	overflow: hidden;
+}
+
+foot{clear: left;}
+
+}

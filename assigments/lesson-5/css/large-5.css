@@ -1,0 +1,44 @@
+@media only screen and (min-width: 64em ) {
+nav ul li { display:block}
+/*Background image*/
+main figure img 
+{
+   top: 0;
+   width: 100%;
+   float:none;
+}	
+	
+.current, .highlow, .conditions
+{
+   display: inline-block;
+   vertical-align: top;
+   width: 25%;
+   position: relative;
+   top: -20px;
+   float:none:
+
+}
+
+main h2, main h4
+{
+    position: relative;
+	left:20px;
+}
+
+	nav{ display:block;}
+
+.weather-summary, main h2
+{
+
+   position:relative;
+   text-align: center;
+   top:2px;
+   
+}
+	
+article img
+{
+	float: right;
+}		
+	
+}

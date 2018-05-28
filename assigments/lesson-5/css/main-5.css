@@ -1,0 +1,133 @@
+* { box-sizing: border-box;}  
+body {
+	font-size: 16px;
+	font-family: sans-serif; 
+	background-color: rgb(255,248,220);
+	margin: 0 0 1em 1em;	
+}
+
+header, nav, main, footer {
+	max-width: 100%; 
+    margin: 0 auto;
+    padding: 0;
+  }
+
+header {}
+header h1 {
+
+	font-size: 40px;
+	color: rgb(166,31,52);
+	text-align: center;
+}
+header img 
+{
+	float: left;
+	margin: 0 0 1em 1em;	
+	background-color: transparent;
+	border: none;
+}
+
+#subheading {text-align: center;}
+
+nav 
+{
+	clear:left;
+	display: none;
+}
+/*-----*/
+
+nav	ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(0,206,209);
+	}
+
+nav ul li {
+	float: left;
+	}
+
+nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+
+nav ul li a:hover 
+{
+	background-color: #111;
+}
+
+/*-----*/
+nav button {
+
+	position: absolute;
+	width: 0.5em;
+	height: 0.5em;
+	top: 0;
+	right: 0;
+	background-color: transparent;
+	border: none;
+    }
+
+
+/*sun*/
+picture img 
+{
+	float: left;
+  	
+}
+
+main {}
+
+main h2 , article h3
+{
+	text-align: center;
+	display: block;
+    }
+article img
+{
+	float: top;
+	margin: 0 0 .2rem 2%;
+}
+
+
+.town-article
+{
+	margin: 1em auto;
+	padding: 0.2em;
+}
+section.forecast { display: none;}  	
+
+.conditions
+{
+   display: inline;
+}
+.current, .class-highlow
+{
+   display: inline-block;
+   vertical-align: top;
+   width: 50%;
+   position: relative;
+}
+
+
+main figure { margin: 0 0 .2rem 2%; width:95%; }
+/*background image*/
+main figure img 
+{
+	top: 0;
+	width: 100%;
+	height: 15em;
+	margin-top: 0.5rem;
+	margin-left: auto;
+	margin-right: auto; 
+	padding: 0;
+		
+}
+
+.footer-bar,.contact {background-color: rgb(210,105,30);text-align:center;}
+.contact{background-color: rgb(0,206,209);}
